@@ -10,7 +10,7 @@ class DeleteAInStringTest {
 	/* To-Do List
 	 *  Remove A if it is present in first 2 characters of string.
 	 * 1. empty string : "" = ""
-	 * 2. 1 character(if character is A or not A) : "A" = "" / "B" = "B" / "C" = "C"  
+	 * 2. 1 character : "A" = "" / "B" = "B" / "C" = "C"  
 	 * 3. 2 characters : "AA" = "" / "AB" = "B" / "BA" = "B" / "BB" = "BB" / "BC" = "BC"
 	 * 4. 3 characters : "AAA" = "A" / "AAB" = "B" / "ABA" = "BA" / "ABB" = "BB" / "BAA" = "BA" / "BAB" = "BB" / "BBA" = "BBA" 
 	 * 5. 4 characters : "ABBA" = "BBA"
